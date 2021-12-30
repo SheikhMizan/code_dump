@@ -20,3 +20,13 @@ function a_qoute_admin_action(){
     );
 }
 add_action('admin_menu', 'a_qoute_admin_action');
+
+
+add_submenu_page(
+    'edit.php?post_type=portfolios',
+    __( 'Test Settings', 'menu-test' ),
+    __( 'Test Settings', 'menu-test' ),
+    'manage_options',
+    'testsettings',
+    'mt_settings_page'
+);
