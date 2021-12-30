@@ -1,3 +1,5 @@
+<?php
+
 function a_qoute_admin_action(){
     add_menu_page(
         __('Reservations Pages'),// the page title
