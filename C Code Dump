@@ -1,0 +1,25 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int N, K, i;
+  N = 5, K = 16;
+int Arr[] = {9, 7, 2, 26, 4};
+ 
+ 
+   i = 0;
+   while (i < K  && K != Arr[i]) {
+      i++;
+   }
+ 
+   if (i < K ) {
+      printf("The element is found in the position = %d", i + 1);
+   } else {
+      printf("Element not found!");
+   }
+
+
+    
+ //   return 0;
+}
